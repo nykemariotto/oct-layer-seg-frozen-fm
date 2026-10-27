@@ -1,0 +1,29 @@
+{
+  "model": "unet_frozen",
+  "dataset": "Duke",
+  "fold": 4,
+  "size": 224,
+  "train_time_s": 19.1,
+  "best_epoch": 13,
+  "best_val_mdice": 0.8389,
+  "test_mdice": 0.8522,
+  "test_mdice_layers_only": 0.8429,
+  "test_dice_fluid": 0.639,
+  "test_boundary_um": 8.89,
+  "test_dice_per_class": {
+    "above-ILM": 0.9879,
+    "NFL": 0.8534,
+    "GCL-IPL": 0.8981,
+    "INL": 0.817,
+    "OPL": 0.7853,
+    "ONL-ISM": 0.8755,
+    "ISE": 0.8622,
+    "OS-RPE": 0.8086,
+    "below-Bruch": 0.9947,
+    "fluid": 0.639
+  },
+  "subjects_test": [
+    "Subject_04",
+    "Subject_07"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model": "dinov2_setr",
+  "dataset": "Duke",
+  "fold": 2,
+  "size": 224,
+  "train_time_s": 62.3,
+  "best_epoch": 29,
+  "best_val_mdice": 0.7731,
+  "test_mdice": 0.7624,
+  "test_mdice_layers_only": 0.7399,
+  "test_dice_fluid": 0.4857,
+  "test_boundary_um": 14.78,
+  "test_dice_per_class": {
+    "above-ILM": 0.9657,
+    "NFL": 0.6898,
+    "GCL-IPL": 0.7685,
+    "INL": 0.6175,
+    "OPL": 0.6557,
+    "ONL-ISM": 0.8747,
+    "ISE": 0.8175,
+    "OS-RPE": 0.7554,
+    "below-Bruch": 0.9935,
+    "fluid": 0.4857
+  },
+  "subjects_test": [
+    "Subject_03",
+    "Subject_08"
+  ]
+}

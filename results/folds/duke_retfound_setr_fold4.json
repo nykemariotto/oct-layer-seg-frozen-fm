@@ -1,0 +1,29 @@
+{
+  "model": "retfound_setr",
+  "dataset": "Duke",
+  "fold": 4,
+  "size": 224,
+  "train_time_s": 69.8,
+  "best_epoch": 46,
+  "best_val_mdice": 0.8076,
+  "test_mdice": 0.8456,
+  "test_mdice_layers_only": 0.8362,
+  "test_dice_fluid": 0.6219,
+  "test_boundary_um": 10.02,
+  "test_dice_per_class": {
+    "above-ILM": 0.9852,
+    "NFL": 0.8475,
+    "GCL-IPL": 0.908,
+    "INL": 0.8092,
+    "OPL": 0.7705,
+    "ONL-ISM": 0.854,
+    "ISE": 0.8638,
+    "OS-RPE": 0.8007,
+    "below-Bruch": 0.9954,
+    "fluid": 0.6219
+  },
+  "subjects_test": [
+    "Subject_04",
+    "Subject_07"
+  ]
+}

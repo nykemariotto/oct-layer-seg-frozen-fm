@@ -1,0 +1,43 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "torch": "2.3.1+cu121",
+  "input": "1x3x224x224, batch 1, FP16 autocast",
+  "note": "latency measured in June 2026 with the same forward pass (values reported in the paper); parameter counts and FP16 weight size are exact",
+  "models": {
+    "U-Net (ResNet-34)": {
+      "params_total_M": 24.437094,
+      "params_trainable_M": 24.437094,
+      "weights_fp16_MB": 48.874188,
+      "latency_ms_median": 8.06,
+      "latency_ms_p90": 8.25
+    },
+    "RETFound + SETR-PUP": {
+      "params_total_M": 309.571782,
+      "params_trainable_M": 6.27015,
+      "weights_fp16_MB": 619.143564,
+      "latency_ms_median": 16.17,
+      "latency_ms_p90": 16.65
+    },
+    "DINOv2 + SETR-PUP": {
+      "params_total_M": 309.498054,
+      "params_trainable_M": 6.27015,
+      "weights_fp16_MB": 618.996108,
+      "latency_ms_median": 17.61,
+      "latency_ms_p90": 18.76
+    },
+    "RETFound + UNETR": {
+      "params_total_M": 306.046518,
+      "params_trainable_M": 2.744886,
+      "weights_fp16_MB": 612.093036,
+      "latency_ms_median": 16.9,
+      "latency_ms_p90": 17.42
+    },
+    "DINOv2 + UNETR": {
+      "params_total_M": 305.97279,
+      "params_trainable_M": 2.744886,
+      "weights_fp16_MB": 611.94558,
+      "latency_ms_median": 18.35,
+      "latency_ms_p90": 19.06
+    }
+  }
+}

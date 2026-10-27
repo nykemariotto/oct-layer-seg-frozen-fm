@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived results, please cite it as below."
+type: software
+title: "Lightweight Networks Match Frozen Foundation Models for Embedded Retinal OCT Layer Segmentation: code and derived results"
+abstract: >-
+  Code, cross-validation splits and derived per-patient results for a decoder-controlled comparison of frozen
+  foundation-model encoders (RETFound, DINOv2) and a fully trained U-Net for retinal OCT layer segmentation
+  on OCT5k and Duke Chiu 2015.
+authors:
+  - given-names: Nycolas
+    family-names: Mariotto
+    affiliation: "Dept. de Biofísica e Farmacologia, UNESP, Botucatu, Brazil"
+  - given-names: Janderson
+    family-names: Souza
+    affiliation: "Dept. de Biofísica e Farmacologia, UNESP, Botucatu, Brazil"
+  - given-names: Fellipe Grillo
+    family-names: Peternella
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Emmanuel Leite
+    name-particle: de
+    family-names: Medeiros
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Eduardo Saia
+    family-names: Lima
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Vitor José Costa
+    family-names: Rodrigues
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Wildemberg Sales
+    name-particle: da
+    family-names: Silva
+    name-suffix: Junior
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Rafael Henry
+    name-particle: de
+    family-names: Viveiro
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Tiago Henrique
+    family-names: Brandão
+    affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
+  - given-names: Allan Felipe Fattori
+    family-names: Alves
+    affiliation: "Dept. de Biofísica e Farmacologia, UNESP, Botucatu, Brazil"
+repository-code: "https://github.com/nykemariotto/oct-layer-seg-frozen-fm"
+license: MIT
+version: 1.0.0
+keywords:
+  - optical coherence tomography
+  - retinal layer segmentation
+  - foundation models
+  - U-Net
+  - embedded inference

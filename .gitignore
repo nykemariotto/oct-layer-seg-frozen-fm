@@ -1,0 +1,21 @@
+# datasets, pre-processed images, checkpoints and figures stay out of the repository
+data/
+work/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.mat
+*.tif
+*.tiff
+*.TIFF
+*.png
+*.jpg
+*.E2E
+*.dcm
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
