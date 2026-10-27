@@ -17,8 +17,7 @@ authors:
     family-names: Peternella
     affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
   - given-names: Emmanuel Leite
-    name-particle: de
-    family-names: Medeiros
+    family-names: de Medeiros
     affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
   - given-names: Eduardo Saia
     family-names: Lima
@@ -27,13 +26,10 @@ authors:
     family-names: Rodrigues
     affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
   - given-names: Wildemberg Sales
-    name-particle: da
-    family-names: Silva
-    name-suffix: Junior
+    family-names: da Silva Junior
     affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
   - given-names: Rafael Henry
-    name-particle: de
-    family-names: Viveiro
+    family-names: de Viveiro
     affiliation: "Instituto Hardware BR (HBR), Campinas, Brazil"
   - given-names: Tiago Henrique
     family-names: Brandão
